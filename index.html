@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./public/css/css/all.min.css">
+  <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="top-header">
+    <div class="top-bar">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+          <div class="right d">Welcome to our online store!</div>
+          <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  English (USD)
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">French (EUR)</a></li>
+                  <li><a class="dropdown-item" href="#">Japanese (JP)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a href="#" class="d"> | Login or Register</a>
+        </nav>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="container">
+        <div class="logo">
+          <div class="col-left">
+            <a href=""><img src="./public/images/logo.png" alt=""></a>
+          </div>
+          <div class="col-right">
+            <div class="search">
+              <form action="" method="post">
+                <input type="text" class="khung" name="search" id="search" placeholder="    Search here">
+                <select name="acces" id="acces" class="acces">
+                  <option value="acc">Accessories</option>
+                  <option value="acc">Accents</option>
+                  <option value="acc">Desks</option>
+                  <option value="acc">Sofas</option>
+                  <option value="acc">New Arrivals</option>
+                  <option value="acc">Bedroom</option>
+                </select>
+                <button type="submit" class="kinhlup">
+                  <i class="fa-solid fa-magnifying-glass "></i>
+                </button>
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-solid fa-user user"></i>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- navigation -->
+  <div class="navigation">
+    <div class="container">
+      <div class="col-na-left">
+        <div class="block-title">
+          <span class="text">
+            <i class="fa-solid fa-bars"></i>
+            All Categories</span>
+        </div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="index.html">HOME</a>
+            <ul class="sub-menu">
+              <li>Home 1</li>
+              <li>Home 2</li>
+              <li>Home 3</li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">SHOP</a>
+            <ul class="sub-menu">
+              <li>Grid Fullwidth</li>
+              <li>Grid Left sidebar</li>
+              <li>Grid Bannerslider</li>
+              <li>List</li>
+            </ul>
+          </li>
+          <li><a href="#">PAGES</a></li>
+          <li><a href="#">BLOGS</a></li>
+          <li>
+            <a href="#">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- main content -->
+  <div class="picture-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./public/images/slider-thumb4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"
+                  style="text-align:left ;color:black; left:40px; top: 160px">
+                  <h5 style="font-size:14px ; color:#7f87ab;">SALE UP TO 40% OFF!</h5>
+                  <h3 style="font-weight:bold;">Spring Summer <br> Collection</h3>
+                  <div class="pri" style="color:#666;">New price :
+                    <span style="font-size: 30px; color:#7f87ab; font-weight:bold">$270.00</span>
+                  </div>
+                  <a href="index.html" style="color:black;">Shop now</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./public/images/slider-thumb5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>TAKE A FURNITURE</h5>
+                  <h3>Up To 25% Off <br> Order Now</h3>
+                  <div class="pri">Sale price :
+                    <span>$170.00</span>
+                  </div>
+                  <a href="index.html">Shop now</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./public/images/slider-thumb6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>CLERIC BEST COLLECTION</h5>
+                  <h3>A Range Of <br> Collection</h3>
+                  <div class="pri">New price :
+                    <span>$250.00</span>
+                  </div>
+                  <a href="index.html"> Furniture</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="pic-out">
+            <img class="img1" src="./public/images/banner-home-5.jpg" alt="">
+            <div class="content-two-pic">
+              <div class="content-pic1">
+                <h3>Pick Your <br>
+                  Items</h3>
+                <p style="color:#666 ;">Adipiscing elit curabitur
+                  <br> senectus sem
+                </p>
+                <a href="index.html">Shop now</a>
+              </div>
+            </div>
+            <img class="img2" src="./public/images/banner-home-6.jpg" alt="">
+            <div class="content-pic2" style="position: absolute; left: 30px; top: 353px;">
+              <h3>Best Of <br>
+                Products</h3>
+              <p style="color: #666;">Cras pulvinar loresum
+                <br> dolor conse
+              </p>
+              <span style="font-size: 23px; color: #7f87ab; font-weight: bold;">$379.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h4>DEAL OF THE DAY</h4>
+    <div class="line"></div>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col col-img4" >
+        <img src="./public/images/product-item-17.jpg" alt="" class="items-img">
+        <div class="pos-items4">
+          <div class="new">New</div>
+        </div>
+      </div>
+      <div class="col col-img4">
+        <img src="./public/images/product-item-21.jpg" alt="" class="items-img">
+      </div>
+      <div class="col col-img4">
+        <img src="./public/images/product-item-20.jpg" alt="" class="items-img">
+      </div>
+      <div class="col col-img4">
+        <img src="./public/images/product-item-22.jpg" alt="" class="items-img">
+      </div>
+    </div>
+  </div>
+
+  <div class="two-picture">
+    <div class="container">
+      <div class="row">
+        <div class="col item1">
+          <img src="./public/images/banner-home-2.jpg" alt="">
+          <div class="content">
+            <h6>TOP STAFF PICK</h6>
+            <h4>Best Collection</h4>
+            <p>Proin interdum magna <br> primis id consequat dictum</p>
+            <a href="index.html">Shop now</a>
+          </div>
+        </div>
+        <div class="col item2">
+          <img src="./public/images/banner-home-3.jpg" alt="">
+          <div class="content">
+            <h4>Maybe You've <br>
+              Earned It</h4>
+            <p>Use code: CLERIC Get 25% Off <br> for all Accessories items!</p>
+            <a href="index.html">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="CollectionArrived">
+        <img src="./public/images/banner-home-15.jpg" alt="">
+        <div class="content2">
+          <h2 style="color: black;">Collection Arrived</h2>
+          <p>You have no items & Are you <br>
+            ready to use? come & shop with us!</p>
+          <div class="banner-price">
+            Price from:
+            <span>$45.00</span>
+          </div>
+          <a href="index.html">Shop now</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="cleric">
+      <div class="container">
+
+      </div>
+    </div>
+    <div class="iconbox-wrapp">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+
+          </div>
+          <div class="col">
+
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h4>OUR LATEST NEWS</h4>
+      <div class="line"></div>
+    </div>
+
+    <div class="cleric-blog">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <img src="./public/images/slider-blog-thumb-1.jpg" alt="">
+            <h6>Agust 17, 09:14 am</h6>
+            <h5>We bring you the best</h5>
+            <p>
+              Phasellus condimentum nulla a arcu lacinia, a <br> venenatis ex congue.
+              Mauris nec ante magna.
+            </p>
+            <a href="index.html">Read more</a>
+          </div>
+          <div class="col">
+            <img src="./public/images/slider-blog-thumb-2 (1).jpg" alt="">
+            <h6>Agust 17, 09:14 am</h6>
+            <h5>We know that buying Items</h5>
+            <p>
+              Using Lorem Ipsum allows designers to put <br> together <br> layouts
+              and the form content
+            </p>
+            <a href="index.html">Read more</a>
+          </div>
+          <div class="col">
+            <img src="./public/images/slider-blog-thumb-3 (1).jpg" alt="">
+            <h6>Agust 17, 09:14 am</h6>
+            <h5>We design functional Items</h5>
+            <p>
+              Risus non porta suscipit lobortis habitasse felis, aptent <br>
+              interdum pretium ut.
+            </p>
+            <a href="index.html">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ig-top">
+      <div class="container">
+        <div class="ig"><i class="fa-brands fa-instagram"></i></div>
+        <h4>INSTAGRAM FEED</h4>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="five-picture">
+      <div class="pic">
+        <img src="./public/images/item-instagram-1.jpg" alt="">
+        <img src="./public/images/item-instagram-2.jpg" alt="">
+        <img src="./public/images/item-instagram-3.jpg" alt="">
+        <img src="./public/images/item-instagram-4 (1).jpg" alt="">
+        <img src="./public/images/item-instagram-5.jpg" alt="">
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-start three-colum">
+        <div class="col">
+          <h6>QUICK MENU</h6>
+          <a href="index.html">New arrivals</a> <br>
+          <a href="index.html">Life style</a><br>
+          <a href="index.html">Accents</a><br>
+          <a href="index.html">Tables</a><br>
+          <a href="index.html">Dining</a>
+        </div>
+        <div class="col">
+          <h6>NEWSLETTER</h6>
+          <p>Sign up for our free video course and <br>
+            urban garden inspiration</p><br>
+          <input type="text" placeholder="Your email letter "> <br>
+          <button type="submit">SUBSCRICE</button>
+        </div>
+        <div class="col">
+          <h6>INFORMATION</h6>
+          <a href="index.html">FAQs</a><br>
+          <a href="index.html">Track Order</a><br>
+          <a href="index.html">Delivery</a><br>
+          <a href="index.html">Contact Us</a><br>
+          <a href="index.html">Return</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="container">
+    <div class="footer-icon">
+      <a href="index.html"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="index.html"><i class="fa-brands fa-twitter"></i></a>
+      <a href="index.html"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <p>Copyright © 2020</p>
+        <p>
+        <div class="cle"> Cleric</div>
+        </p>
+        <p>. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  <div class="circle">
+    <a href="index.html"> <i class="fa-solid fa-angles-up"></i></a>
+  </div>
+
+
+</body>
+
+</html>
